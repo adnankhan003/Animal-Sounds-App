@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AquaActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aquatic_animals"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/seal"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundAqua"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/seal"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <ImageView
+                    android:id="@+id/sea_turtle"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/turtle"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundAqua"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/dolphin"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundAqua"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dolphin"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <ImageView
+                    android:id="@+id/alligator"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/alligator"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundAqua"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/hippo"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundAqua"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/hippo"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <ImageView
+                    android:id="@+id/whale"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/whale"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundAqua"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/sea_lion"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundAqua"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sea_lion"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <ImageView
+                    android:id="@+id/frog"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundAqua"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/frog"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

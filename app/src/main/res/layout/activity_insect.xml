@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsectActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insects"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/housefly"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundInsect"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/housefly"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+                <ImageView
+                    android:id="@+id/mosquito"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/mosquito"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundInsect"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/bee"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundInsect"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/bee"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+                <ImageView
+                    android:id="@+id/cockroach"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/cockroach"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundInsect"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/beetle"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundInsect"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/beetle"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#053742</color>
+    <color name="purple_500">#053742</color>
+    <color name="purple_700">#053742</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="main">#053742</color>
+    <color name="second">#715F5F</color>
+    <color name="third">#E9D6AC</color>
+    <color name="forth">#8F8F8F</color>
+    <color name="new_hint">#9D9D9D</color>
+
+
+    <color name="dom_col">#B4FF9F</color>
+    <color name="wild_col">#FAD4D4</color>
+    <color name="bird_col">#B8FFF9</color>
+    <color name="aqua_col">#7FDBDA</color>
+    <color name="rep_col">#D0AF84</color>
+    <color name="insect_col">#F6FFA4</color>
+    <color name="amphi_col">#61B15A</color>
+
+
+</resources>

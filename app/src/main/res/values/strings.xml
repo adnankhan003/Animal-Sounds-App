@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Animal Sounds App</string>
+    <string name="domestic_animals">Domestic Animals</string>
+    <string name="wild_animals">Wild Animals</string>
+    <string name="birds">Birds</string>
+    <string name="aquatic_animals">Aquatic Animals</string>
+    <string name="reptiles">Reptiles</string>
+    <string name="insects">Insects</string>
+    <string name="amphibian">Amphibians</string>
+    <string name="todo">TODO</string>
+    <string name="click_content">Select the category of animals whose sound you want to play!</string>
+</resources>

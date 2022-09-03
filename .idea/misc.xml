@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable-v24/amphi_selector.xml" value="0.1375" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable-v24/aqua_selector.xml" value="0.1375" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable-v24/bird_selector.xml" value="0.1375" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable-v24/dom_selector.xml" value="0.1375" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable-v24/insect_selector.xml" value="0.1375" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable-v24/main_selector.xml" value="0.1375" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable-v24/rep_selector.xml" value="0.1375" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable-v24/wild_selector.xml" value="0.1375" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1375" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable/ripple_click.xml" value="0.1345" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_amphibian.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_aqua.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_bird.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_domestic.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_flash_screen.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_insect.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_reptile.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_wild.xml" value="0.1935897435897436" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1345" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

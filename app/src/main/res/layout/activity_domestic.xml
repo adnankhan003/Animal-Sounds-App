@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DomesticActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/domestic_animals"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/dog"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundDom"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dog"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <ImageView
+                    android:id="@+id/cat"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/cat"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundDom"/>
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/billy_goat"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:contentDescription="@string/todo"
+                        android:onClick="playSoundDom"
+                        android:src="@drawable/billy_goat"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+
+                    <ImageView
+                        android:id="@+id/goat"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/goat"
+                        tools:ignore="ImageContrastCheck"
+                        android:contentDescription="@string/todo"
+                        android:onClick="playSoundDom"/>
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cow"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/cow"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundDom"/>
+
+                <ImageView
+                    android:id="@+id/ox"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/ox"
+                    tools:ignore="ImageContrastCheck"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundDom"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/horse"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/horse"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundDom"/>
+
+                <ImageView
+                    android:id="@+id/rabbit"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/rabbit"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundDom"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/donkey"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/donkey"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/todo"
+                    android:onClick="playSoundDom"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
