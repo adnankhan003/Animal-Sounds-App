@@ -1,10 +1,14 @@
 package com.example.animalsoundsapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
@@ -46,5 +50,21 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this,InsectActivity.class);
             startActivity(intent);
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(@NonNull Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.option_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId()==R.id.contact_us){
+            Intent intent = new Intent(MainActivity.this,CallActivity.class);
+            startActivity(intent);
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

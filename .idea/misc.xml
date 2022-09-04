@@ -11,17 +11,20 @@
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable-v24/main_selector.xml" value="0.1375" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable-v24/rep_selector.xml" value="0.1375" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable-v24/wild_selector.xml" value="0.1375" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable/ic_call.xml" value="0.137" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1375" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/drawable/ripple_click.xml" value="0.1345" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_amphibian.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_aqua.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_bird.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_call.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_domestic.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_flash_screen.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_insect.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_reptile.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/layout/activity_wild.xml" value="0.1935897435897436" />
+        <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/menu/option_menu.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Adnan Khan/AndroidStudioProjects/AnimalSoundsApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1345" />
       </map>
     </option>
